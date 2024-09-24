@@ -1,6 +1,6 @@
 import { project1, project2, project3, quotesImage } from '../../../../assets/images';
-import { Card } from '../../../../components/index';
 import * as S from './style'
+import Card from '../../../../components/Card';
 
 const Project: React.FC = () => {
     const CardInfo = [
