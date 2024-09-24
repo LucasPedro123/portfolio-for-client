@@ -1,5 +1,5 @@
-import { dotsImage, imageMain, logoOutline } from '../../assets/images';
-import Button from '../Button';
+import { dotsImage, imageMain, logoOutline } from '../../../../assets/images';
+import Button from '../../../../components/Button';
 import * as S from './style'
 
 const Hero: React.FC = () => {
@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
         <S.Container>
             <S.Wrapper>
                 <S.Content>
-                    <S.Head>Elias is a,<span>web designer</span> and <br /> <span>front-end developer</span></S.Head>
+                    <S.Head>Elias is a <span>web designer</span> and <br /> <span>front-end developer</span></S.Head>
                     <S.Description>He crafts responsive websites where technologies<br /> meet creativity</S.Description>
                 </S.Content>
                 <Button content='Contacte-me!!'/>

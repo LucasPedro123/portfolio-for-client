@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { global } from '../../assets/styles/global.style'
+import { global } from '../../../../assets/styles/global.style'
 
 export const Container = styled.div`
     display: flex;

@@ -1,4 +1,4 @@
-import Hero from '../../components/Hero';
+import Hero from './Elements/Hero';
 import Header from '../../components/header';
 import * as S from './style'
 
