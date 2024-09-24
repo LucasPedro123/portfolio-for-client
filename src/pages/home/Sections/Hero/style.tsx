@@ -4,7 +4,6 @@ import { global } from '../../../../assets/styles/global.style'
 export const Container = styled.div`
     display: flex;
     height: 423px;
-    padding-inline: 121px;
     align-items: center;
     justify-content: space-between;
 `
@@ -97,7 +96,10 @@ export const labelImage = styled.p`
     font-size: ${global.fontSize.label};
     line-height: 21px;
     color: ${global.color.gray};
-    
+    span{
+        font-weight: ${global.fontWeight.semiBold};
+        color: ${global.color.white};
+    }
 `
 
 export const ImageMain = styled.img`
