@@ -9,6 +9,7 @@ export const global = {
     fontWeight:{
         bold: 700,
         semiBold: 600,
+        medium: 500,
         regular: 400
     },
     fontSize: {
