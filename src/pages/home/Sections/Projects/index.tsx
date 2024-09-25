@@ -29,7 +29,7 @@ const Project: React.FC = () => {
 
     return (
         <S.Container>
-            <S.Square />
+            <S.Square1 />
             <S.QuoteWrapper>
                 <S.QuoteBorder>
                     <S.QuoteImage1 src={quotesImage} />
@@ -62,6 +62,7 @@ const Project: React.FC = () => {
                     ))
                 }
             </S.CardContainer>
+            <S.Square2/>
         </S.Container>
     )
 }

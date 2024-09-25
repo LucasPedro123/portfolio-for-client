@@ -9,13 +9,21 @@ export const Container = styled.div`
     margin-top: 145px;
 `
 
-export const Square = styled.div`
+export const Square1 = styled.div`
     width: 91px;
     height: 91px;
     border: 1px solid ${global.color.gray};
     position: absolute;
     top: 680px;
     right: -20px;
+`
+export const Square2 = styled.div`
+    width: 155px;
+    height: 155px;
+    border: 1px solid ${global.color.gray};
+    position: absolute;
+    top: 1159px;
+    right: -110px;
 `
 
 export const QuoteWrapper = styled.div`
