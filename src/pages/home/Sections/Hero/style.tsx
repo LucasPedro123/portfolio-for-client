@@ -124,6 +124,42 @@ export const ImageMain = styled.img`
   }
 `
 
+export const DotWrapper = styled.div`
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 10px);
+    grid-template-rows: repeat(5, 10px);   
+    gap: 10px; 
+
+    animation-name: floatingInvert;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+    @keyframes floatingInvert {
+    0% {
+      transform: translate(0, 10px);
+    }
+    50% {
+      transform: translate(0, 0px);
+    }
+    100% {
+      transform: translate(0, 10px);
+    }
+  }
+`;
+
+export const Dot = styled.div`
+    width: 4px;
+    height: 4px;
+    background-color: ${global.color.gray};
+    border-radius: 50%;
+    margin-block: 10.75px;
+`;
+
 export const ImageDotsTable = styled.img`
     position: absolute;
     right: 0;
