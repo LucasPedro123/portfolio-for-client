@@ -83,4 +83,3 @@ Se você deseja colaborar ou tem alguma dúvida, sinta-se à vontade para entrar
 
 - Email: lucaspedrofernandes@gmail.com
 - Discord: ordep_developer
-bash
