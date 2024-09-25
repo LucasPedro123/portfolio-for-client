@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { global } from '../../../../assets/styles/global.style';
 import { Link } from 'react-router-dom';
 
-export const Container = styled.div`
+export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;

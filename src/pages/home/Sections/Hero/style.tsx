@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { global } from '../../../../assets/styles/global.style'
 
-export const Container = styled.div`
+export const Container = styled.section`
     display: flex;
     height: 423px;
     align-items: center;
