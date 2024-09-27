@@ -129,3 +129,19 @@ export const LineProfile = styled.hr`
     margin: 0;
     align-self: center;
 `
+
+export const Square = styled.div`
+    width: 155px;
+    height: 155px;
+    border: 1px solid ${global.color.gray};
+    position: absolute;
+    top: 2152px;
+    left: -98px;
+
+    animation-name: floatingInvert;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+
+   
+`

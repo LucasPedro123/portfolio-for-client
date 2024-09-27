@@ -42,7 +42,7 @@ const AboutMe: React.FC = () => {
                 </S.DotTable2>
                 <S.LineProfile/>
             </S.ImageGroup>
-
+            <S.Square/>
             <S.DotTable3>
                 {
                     Array.from({ length: 25 }).map((_, index) => (
@@ -50,6 +50,7 @@ const AboutMe: React.FC = () => {
                     ))
                 }
             </S.DotTable3>
+
         </S.Container>
     )
 }
