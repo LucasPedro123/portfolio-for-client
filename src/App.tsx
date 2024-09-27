@@ -1,4 +1,5 @@
 import AppStyle from "./assets/styles"
+import { Footer } from "./components"
 import Router from "./routes"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <AppStyle />
       <Router />
+      <Footer/>
     </>
   )
 }
