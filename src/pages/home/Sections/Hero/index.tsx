@@ -1,4 +1,4 @@
-import {imageMain, logoOutline } from '../../../../assets/images';
+import {profile1, logoOutline } from '../../../../assets/images';
 import Button from '../../../../components/Button';
 import * as S from './style'
 
@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
             </S.Wrapper>
             <S.WrapperImage>
                 <S.logoOutline src={logoOutline} />
-                <S.ImageMain src={imageMain} />
+                <S.ImageMain src={profile1} />
                 <S.DotWrapper>
                     {Array.from({ length: 25 }).map((_, index) => (
                         <S.Dot key={index} />
