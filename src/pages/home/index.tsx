@@ -1,5 +1,5 @@
 import * as S from './style'
-import { SectionHero, SectionProject, SectionSkills } from './Sections';
+import { SectionAboutMe, SectionHero, SectionProject, SectionSkills } from './Sections';
 import { Header } from '../../components/index';
 
 const Home : React.FC = ()=>{
@@ -9,7 +9,8 @@ const Home : React.FC = ()=>{
             <Header/>
             <SectionHero />
             <SectionProject />
-            <SectionSkills/>
+            <SectionSkills />
+            <SectionAboutMe/>
         </S.Container>
     )
 }
