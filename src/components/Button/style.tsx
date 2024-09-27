@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { global } from '../../assets/styles/global.style'
 
 export const Button = styled.button`
+    font-family: 'Fira Code';
     display: flex;
     flex-direction: column;
     position: relative;
